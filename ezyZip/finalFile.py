@@ -6,14 +6,14 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, ListFlowable, ListItem
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
-
+import os
 # Configure API
 API_KEY = "AIzaSyAlNMExiThkT0dd3MrK9-dR_A4ZEtIC8EY"
 genai.configure(api_key=API_KEY)
 llm = genai.GenerativeModel("gemini-1.5-pro")
 
 # Register Arial Unicode Font
-pdfmetrics.registerFont(TTFont("ArialUnicode", "C:\\gdg website\\backend\\ezyZip\\arial-unicode-ms.ttf"))
+pdfmetrics.registerFont(TTFont("ArialUnicode", os.path.abspath("ezyZip\\arial-unicode-ms.ttf")))
 
 # Load Default Styles
 styles = getSampleStyleSheet()
