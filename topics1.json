@@ -1,0 +1,66 @@
+[
+    {
+        "Sequence and Series" : 
+        [
+                "Sequences of real numbers",
+                "Series",
+                "ratio and root test"
+        ]
+    },
+    {
+        "Calculus of functions of single variable:" :
+        [
+            "Review of limits",
+            "continuity",
+            "and differentiability. Mean value theorems: Rolle’s theorem",
+            "Lagrange’s theorem",
+            "Cauchy’s theorem",
+            "Taylor’s theorem with remainders",
+            "indeterminate forms",
+            "curvature",
+            "curve tracing. Fundamental theorem of Integral calculus",
+            "mean value theorems of integral calculus",
+            "evaluation of definite integrals",
+            "applications in area",
+            "length",
+            "volumes and surface of solids of revolutions",
+            "Improper integrals: Beta and Gamma functions",
+            "differentiation under integral sign"
+        ]
+    },
+    {
+        "Calculus of Functions of Several Variables" : 
+        [
+            "Limit",
+            "continuity and differentiability of functions ofseveral variables",
+            "partial derivatives and their geometrical interpretation",
+            "Tangent plane and normalline. Total differentiation",
+            "chain rules",
+            "Taylor’s formula",
+            "maxima and minima",
+            "Lagrange’s method ofundetermined multipliers. Double and triple integrals",
+            "Jacobian",
+            "change of order of integration",
+            "changeof variables",
+            "application to area",
+            "volumes",
+            "Mass",
+            "Centre of gravity"
+        ]
+    },
+    {
+        "Differential equation and its modelling with curve fitting" : 
+        [
+            "Modelling with Differential Equations",
+            "Direction Fields and Euler’s Method",
+            "Linear and Bernoulli’s differential equations",
+            "Nonlineardifferential equations",
+            "Polar curves",
+            "angle between the radius vector and the tangent",
+            "angle betweentwo curves. Pedal equations. Curvature and Radius of curvature - Cartesian",
+            "Parametric",
+            "Polar andPedal forms. Problems Canter and circle of curvature",
+            "evolutes and involutes"
+        ]
+    }
+]
