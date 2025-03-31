@@ -8,6 +8,8 @@ app = Flask(__name__)
 
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
+# this end point is for the feature lecture suggester. It takes in tokens and suggests lectures according to the tokens
+# sends back youtube video Ids which are then embedded on the frontend
 @app.route('/api/videoId')
 def home():
     query = request.args.get('q', '')
@@ -25,6 +27,8 @@ def home():
 
     return jsonify({"result": result})  # Ensure JSON response
 
+# this feature is for making the worksheets
+# it sends a zip file containing 3 files Notes, Tests and Assignment
 @app.route('/api/worksheets', methods=['GET'])
 def download_pdfs():
     """API Endpoint to generate and return a ZIP file with PDFs."""
